@@ -1,7 +1,7 @@
 class CreatePosts < ActiveRecord::Migration
   def self.up
     create_table :posts do |t|
-      t.string :description
+      t.text :description
       t.string :image_url
 
       t.timestamps

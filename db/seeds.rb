@@ -6,4 +6,4 @@
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
 
-Post.create(:description => 'Fran scratches his nuts', :image_url =>'http://www3.babson.edu/Offices/public_safety/logs/images/Olincruiser.JPG')
+Post.create(:description => 'Fran scratches his nuts', :image_url =>'http://www3.babson.edu/Offices/public_safety/logs/images/Olincruiser.JPG', :created_at =>Time.now)
