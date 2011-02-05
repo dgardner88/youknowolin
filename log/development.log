@@ -91,3 +91,25 @@ Started GET "/" for 127.0.0.1 at Fri Feb 04 21:06:17 -0500 2011
   [1m[35mPost Load (0.0ms)[0m  SELECT "posts".* FROM "posts"
 Rendered posts/index.html.erb within layouts/application (10.0ms)
 Completed 200 OK in 108ms (Views: 97.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Feb 04 21:21:54 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 64ms (Views: 52.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at Fri Feb 04 21:21:55 -0500 2011
+  Processing by PostsController#new as HTML
+Rendered posts/_form.html.erb (23.0ms)
+Rendered posts/new.html.erb within layouts/application (45.0ms)
+Completed 200 OK in 104ms (Views: 92.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at Fri Feb 04 21:21:58 -0500 2011
+  Processing by PostsController#create as HTML
+  Parameters: {"commit"=>"Create Post", "post"=>{"image_url"=>"", "description"=>""}, "authenticity_token"=>"0/aJXsWnuirEj8RUtIqC8jUIFfzYq+pk3o57Gs9uFkg=", "utf8"=>"✓"}
+Rendered posts/_form.html.erb (14.0ms)
+Rendered posts/new.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 106ms (Views: 83.0ms | ActiveRecord: 0.0ms)

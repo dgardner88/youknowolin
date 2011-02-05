@@ -7,15 +7,14 @@ describe Post do
          end
 	
 	it "should work given default attributes" do
-		good_post=Post.create(@attr)
+		good_post=Post.new(@attr)
 		good_post.should be_valid
 	end
 	
  it "should have a description" do
- 	bad_post = Post.create(:description=>'',
- 	                        :image_url=>'image.jpg')
- 	 bad_post.should_not be_valid
- 	 bad_post.should have(1).error_on(:name)
+ 	bad_post = Post.new(@attr.merge(:description=>''))
+ 	bad_post.should_not be_valid
+ 	bad_post.should have(1).error_on(:description)
  	 end
  	 
 

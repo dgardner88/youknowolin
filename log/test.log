@@ -173,3 +173,176 @@ Started GET "/posts" for 127.0.0.1 at Fri Feb 04 21:11:24 -0500 2011
   Processing by PostsController#index as HTML
   [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"
 Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 6.0ms)
+  Processing by PostsController#index as HTML
+Rendered posts/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"37"}
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#new as HTML
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"37"}
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"these"=>"params"}}
+Redirected to http://test.host/posts/1005
+Completed 302 Found in 6ms
+  Processing by PostsController#create as HTML
+  Parameters: {"post"=>{}}
+Redirected to http://test.host/posts/1006
+Completed 302 Found in 4ms
+  Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"these"=>"params"}}
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#create as HTML
+  Parameters: {"post"=>{}}
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#update as HTML
+  Parameters: {"post"=>{"these"=>"params"}, "id"=>"37"}
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#update as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/posts/1010
+Completed 302 Found in 4ms
+  Processing by PostsController#update as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/posts/1011
+Completed 302 Found in 3ms
+  Processing by PostsController#update as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#update as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#destroy as HTML
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/posts
+Completed 302 Found in 1ms
+  Processing by PostsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/posts
+Completed 302 Found in 3ms
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (3.0ms)[0m  INSERT INTO "posts" ("description", "updated_at", "image_url", "created_at") VALUES ('Test description', '2011-02-05 02:19:51.067152', 'test.jpg', '2011-02-05 02:19:51.067152')
+
+
+Started GET "/posts" for 127.0.0.1 at Fri Feb 04 21:19:51 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 3.0ms)
+  Processing by PostsController#index as HTML
+Rendered posts/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"37"}
+Completed 200 OK in 17ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#new as HTML
+Completed 200 OK in 16ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"37"}
+Completed 200 OK in 15ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"these"=>"params"}}
+Redirected to http://test.host/posts/1005
+Completed 302 Found in 8ms
+  Processing by PostsController#create as HTML
+  Parameters: {"post"=>{}}
+Redirected to http://test.host/posts/1006
+Completed 302 Found in 4ms
+  Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"these"=>"params"}}
+Completed 200 OK in 6ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#create as HTML
+  Parameters: {"post"=>{}}
+Completed 200 OK in 5ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#update as HTML
+  Parameters: {"post"=>{"these"=>"params"}, "id"=>"37"}
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#update as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/posts/1010
+Completed 302 Found in 4ms
+  Processing by PostsController#update as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/posts/1011
+Completed 302 Found in 5ms
+  Processing by PostsController#update as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#update as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#destroy as HTML
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/posts
+Completed 302 Found in 1ms
+  Processing by PostsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/posts
+Completed 302 Found in 3ms
+
+
+Started GET "/posts" for 127.0.0.1 at Fri Feb 04 21:22:14 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 1.0ms)
+  Processing by PostsController#index as HTML
+Rendered posts/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 31ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#show as HTML
+  Parameters: {"id"=>"37"}
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#new as HTML
+Completed 200 OK in 15ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"37"}
+Completed 200 OK in 15ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"these"=>"params"}}
+Redirected to http://test.host/posts/1005
+Completed 302 Found in 6ms
+  Processing by PostsController#create as HTML
+  Parameters: {"post"=>{}}
+Redirected to http://test.host/posts/1006
+Completed 302 Found in 4ms
+  Processing by PostsController#create as HTML
+  Parameters: {"post"=>{"these"=>"params"}}
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#create as HTML
+  Parameters: {"post"=>{}}
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#update as HTML
+  Parameters: {"post"=>{"these"=>"params"}, "id"=>"37"}
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#update as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/posts/1010
+Completed 302 Found in 4ms
+  Processing by PostsController#update as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/posts/1011
+Completed 302 Found in 4ms
+  Processing by PostsController#update as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#update as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  Processing by PostsController#destroy as HTML
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/posts
+Completed 302 Found in 1ms
+  Processing by PostsController#destroy as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/posts
+Completed 302 Found in 3ms
+
+
+Started GET "/posts" for 127.0.0.1 at Fri Feb 04 21:24:56 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 1.0ms)
