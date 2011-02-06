@@ -715,3 +715,212 @@ Started GET "/" for 127.0.0.1 at Fri Feb 04 22:15:34 -0500 2011
   [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
 Rendered posts/index.html.erb within layouts/application (10.0ms)
 Completed 200 OK in 78ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 12:50:00 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 111ms (Views: 81.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:06:58 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 132ms (Views: 85.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:07:02 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 340ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+  [1m[36mSQL (1.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (21.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (208.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (111.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (1.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (1.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+Migrating to CreatePosts (20110205013948)
+  [1m[36mSQL (2.0ms)[0m  [1mCREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "description" text, "image_url" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110205013948')
+  [1m[36mSQL (1.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("posts")
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:11:06 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 75ms (Views: 39.0ms | ActiveRecord: 1.0ms)
+  [1m[36mSQL (1.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (1.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mAREL (1.0ms)[0m  INSERT INTO "posts" ("description", "updated_at", "image_url", "created_at") VALUES ('Fran scratches his nuts', '2011-02-06 18:11:41.706928', 'http://www3.babson.edu/Offices/public_safety/logs/images/Olincruiser.JPG', '2011-02-06 18:11:41.699927')
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:11:55 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 77ms (Views: 46.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:12:22 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/index.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 128ms (Views: 64.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:13:15 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/index.html.erb within layouts/application (118.0ms)
+Completed   in 193ms
+
+ActionView::Template::Error (undefined method `created_on' for #<Post:0xdb9cf90>):
+    13:   <tr>
+    14:     <td><b><%= post.description %></b></td>
+    15:     <td><%= image_tag(post.image_url, :class => 'post_image', :width => 400) %></td>
+    16:     <td><%= post.created_on %></td>
+    17:     <td><%= link_to 'Show', post %></td>
+    18:     <td><%= link_to 'Edit', edit_post_path(post) %></td>
+    19:     <td><%= link_to 'Destroy', post, :confirm => 'Are you sure?', :method => :delete %></td>
+  app/views/posts/index.html.erb:16:in `_app_views_posts_index_html_erb___632312801_115131564_0'
+  app/views/posts/index.html.erb:12:in `each'
+  app/views/posts/index.html.erb:12:in `_app_views_posts_index_html_erb___632312801_115131564_0'
+  app/controllers/posts_controller.rb:7:in `index'
+
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (52.0ms)
+Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (87.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:13:37 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.0ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 111ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:14:36 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 84ms (Views: 54.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:15:59 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 86ms (Views: 54.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:16:09 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/index.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 127ms (Views: 92.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:16:16 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 120ms (Views: 86.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:18:21 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 78ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:18:23 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 81ms (Views: 50.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:18:24 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 82ms (Views: 51.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:18:47 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 136ms (Views: 50.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:18:48 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 80ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:18:49 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 145ms (Views: 49.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:18:51 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 84ms (Views: 52.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:18:56 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 249ms (Views: 189.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:20:04 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 84ms (Views: 54.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Feb 06 13:21:16 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 84ms (Views: 55.0ms | ActiveRecord: 1.0ms)
