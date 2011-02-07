@@ -7,8 +7,9 @@
   <%= csrf_meta_tag %><!-- <label id="code.csrf"/> -->
 
 <div class="posts">
+  <% if @posts %>
   <%=render(@posts)%>
-
+  <% end %>
 </div>
 
 <div class="submit_bar">

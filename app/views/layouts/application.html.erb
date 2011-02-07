@@ -15,6 +15,10 @@
     <%= @page_title || "uKnowOlin" %><!-- <label id="code.depot.e.title"/> -->
   </div>
 
+  <% if notice %>
+    <p id="notice"><%= notice %></p>
+  <% end %>
+  
   <div id="main">
       <%= yield %><!-- <label id="code.depot.e.include"/> -->
   </div>
