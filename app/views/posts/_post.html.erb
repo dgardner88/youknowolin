@@ -1,0 +1,5 @@
+  <div class="post">
+    <p><b>You know you go to olin when <%= post.description %></b></p>
+    <p><%= image_tag(post.image_url, :class => 'post_image', :width => 400) %></p>
+    <div class="timestamp"><%= post.created_at.ctime %></div>
+  </div>

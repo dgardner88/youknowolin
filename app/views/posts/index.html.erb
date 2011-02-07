@@ -6,26 +6,17 @@
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %><!-- <label id="code.csrf"/> -->
 
-<table>
-  <tr>
-    <th>Description</th>
-    <th>Image url</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
+<div class="posts">
+  <%=render(@posts)%>
 
-<% @posts.each do |post| %>
-  <tr>
-    <td><b><%= post.description %></b></td>
-    <td><%= image_tag(post.image_url, :class => 'post_image', :width => 400) %></td>
-    <td><%= post.created_at.ctime %></td>
-    <td><%= link_to 'Show', post %></td>
-    <td><%= link_to 'Edit', edit_post_path(post) %></td>
-    <td><%= link_to 'Destroy', post, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
+</div>
+
+<div class="submit_bar">
+  <% form_for :post, :url => { :action => "create" } do |f| %>
+    Description: <%= f.text_field :description  %><br />
+    Image Path : <%= f.text_field :image_url %><br />
+  <% end %>
+</div>
 
 <br />
 
