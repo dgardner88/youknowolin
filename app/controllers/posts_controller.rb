@@ -1,8 +1,11 @@
 class PostsController < ApplicationController
   # GET /posts
   # GET /posts.xml
+  skip_before_filter :verify_authenticity_token
+
   def index
     @posts = Post.all
+    @post = Post.new
 
     respond_to do |format|
       format.html # index.html.erb

@@ -2,74 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08e45005-35b0-40e3-9834-5d0eedefa4af" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/posts/_new.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/posts/_post.html.erb" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\.rspec" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\README" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\app\controllers\application_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\app\controllers\posts_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\app\helpers\application_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\app\helpers\posts_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\app\models\post.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\app\views\layouts\application.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\app\views\posts\_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\app\views\posts\edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\app\views\posts\index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\app\views\posts\new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\app\views\posts\show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\config.ru" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\config\application.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\config\boot.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\config\database.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\config\environment.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\config\environments\development.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\config\environments\production.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\config\environments\test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\config\initializers\backtrace_silencers.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\config\initializers\inflections.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\config\initializers\mime_types.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\config\initializers\secret_token.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\config\initializers\session_store.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\config\locales\en.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\config\routes.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\db\migrate\20110205000822_create_posts.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\db\schema.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\db\seeds.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\doc\README_FOR_APP" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\lib\tasks\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\public\404.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\public\422.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\public\500.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\public\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\public\images\rails.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\public\javascripts\application.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\public\javascripts\controls.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\public\javascripts\dragdrop.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\public\javascripts\effects.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\public\javascripts\prototype.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\public\javascripts\rails.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\public\robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\public\stylesheets\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\public\stylesheets\scaffold.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\script\rails" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\spec\controllers\posts_controller_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\spec\models\post_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\spec\requests\posts_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\spec\routing\posts_routing_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\spec\spec_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\test\performance\browsing_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\test\test_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin\youknowolin\vendor\plugins\.gitkeep" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/youknowolin.iml" afterPath="$PROJECT_DIR$/.idea/youknowolin.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/depot.css" afterPath="$PROJECT_DIR$/public/stylesheets/depot.css" />
     </list>
     <ignored path="youknowolin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,64 +33,19 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" showNonProject="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="posts_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="posts_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+            <state line="15" column="16" selection-start="322" selection-end="322" vertical-scroll-proportion="-2.0153847">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/post.rb">
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="11" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="11" selection-start="575" selection-end="575" vertical-scroll-proportion="0.42986426">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/posts/_new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_post.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/posts/_post.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="2" selection-start="581" selection-end="581" vertical-scroll-proportion="-12.37037">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scaffold.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/scaffold.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="1" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="53" selection-end="75" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -159,7 +54,34 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="11" selection-start="30" selection-end="336" vertical-scroll-proportion="-8.555555">
+            <state line="20" column="8" selection-start="544" selection-end="544" vertical-scroll-proportion="-7.4814816">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="4" selection-start="394" selection-end="394" vertical-scroll-proportion="-10.888889">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -174,10 +96,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="depot.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/depot.css">
+      <file leaf-file-name="_new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/_new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="25" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boot.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/boot.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -217,12 +157,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/public/stylesheets/depot.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/_post.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/_new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       </list>
     </option>
   </component>
@@ -259,7 +201,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -320,6 +261,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="youknowolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="youknowolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -367,9 +322,46 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="youknowolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="youknowolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="youknowolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="youknowolin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
       <pane id="Favorites" />
     </panes>
@@ -378,45 +370,7 @@
     <property name="recentsLimit" value="5" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
   </component>
-  <component name="RunManager" selected="Rails.Development: youknowolin">
-    <configuration default="false" name="Gemfile" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="youknowolin" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/Gemfile" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="db:drop:all" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="youknowolin" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="development" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:drop:all" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Rake.routes">
     <configuration default="false" name="db:drop" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="youknowolin" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -474,6 +428,42 @@
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:seed" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Gemfile" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="youknowolin" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/Gemfile" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="routes" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="youknowolin" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="routes" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
@@ -559,7 +549,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -582,6 +572,44 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="INHERITANCE_CHECK_DISABLED" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Production: youknowolin" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="youknowolin" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Development: youknowolin" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="youknowolin" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="10.41.24.73" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
@@ -622,54 +650,16 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Production: youknowolin" type="RailsRunConfigurationType" factoryName="Rails">
-      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
-      <module name="youknowolin" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Development: youknowolin" type="RailsRunConfigurationType" factoryName="Rails">
-      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
-      <module name="youknowolin" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="C:\Users\dgardner\WebDev\MashUp\youknowolin\youknowolin" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
     <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: youknowolin" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: youknowolin" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.Gemfile" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.db:drop:all" />
-      <item index="6" class="java.lang.String" itemvalue="Rake.db:drop" />
-      <item index="7" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.db:seed" />
+      <item index="0" class="java.lang.String" itemvalue="Rails.Production: youknowolin" />
+      <item index="1" class="java.lang.String" itemvalue="Rails.Development: youknowolin" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.db:drop" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.db:seed" />
+      <item index="7" class="java.lang.String" itemvalue="Ruby.Gemfile" />
+      <item index="8" class="java.lang.String" itemvalue="Rake.routes" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -718,23 +708,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="3" y="95" width="1452" height="876" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21509168" sideWeight="0.6899329" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21570013" sideWeight="0.67114097" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31006712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4067114" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1096" height="800" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -774,19 +764,25 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" />
+        <state line="46" column="4" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/posts_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/post.rb">
@@ -794,37 +790,30 @@
         <state line="19" column="11" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/scaffold.css">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+        <state line="10" column="5" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/depot.css">
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="25" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/boot.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="2" selection-start="581" selection-end="581" vertical-scroll-proportion="-12.37037">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/_post.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/_new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -836,16 +825,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/posts/_new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="30" selection-end="336" vertical-scroll-proportion="-8.555555">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="11" selection-start="575" selection-end="575" vertical-scroll-proportion="0.42986426">
+        <state line="14" column="4" selection-start="394" selection-end="394" vertical-scroll-proportion="-10.888889">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="8" selection-start="544" selection-end="544" vertical-scroll-proportion="-7.4814816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="53" selection-end="75" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="16" selection-start="322" selection-end="322" vertical-scroll-proportion="-2.0153847">
           <folding />
         </state>
       </provider>

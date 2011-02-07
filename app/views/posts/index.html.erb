@@ -12,10 +12,7 @@
 </div>
 
 <div class="submit_bar">
-  <% form_for :post, :url => { :action => "create" } do |f| %>
-    Description: <%= f.text_field :description  %><br />
-    Image Path : <%= f.text_field :image_url %><br />
-  <% end %>
+    <%= render 'form' %>
 </div>
 
 <br />
