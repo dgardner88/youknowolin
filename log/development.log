@@ -1,0 +1,686 @@
+
+
+Started GET "/" for 127.0.0.1 at Tue Feb 08 20:14:49 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (46.9ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+SQLite3::SQLException: no such table: posts: SELECT "posts".* FROM "posts"
+Completed   in 94ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: posts: SELECT "posts".* FROM "posts"):
+  app/controllers/posts_controller.rb:7:in `index'
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (218.7ms)
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (31.2ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (234.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (171.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.0ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+Migrating to CreatePosts (20110205013948)
+  [1m[36mSQL (0.0ms)[0m  [1mCREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "description" text, "image_url" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110205013948')
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("posts")
+
+
+Started GET "/" for 127.0.0.1 at Tue Feb 08 20:18:35 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.0ms)[0m  SELECT "posts".* FROM "posts"
+Rendered collection (0.0ms)
+Rendered posts/_form.html.erb (93.8ms)
+Rendered posts/index.html.erb within layouts/application (140.6ms)
+Completed 200 OK in 266ms (Views: 218.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:18:36 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at Tue Feb 08 20:18:50 -0500 2011
+  Processing by PostsController#create as HTML
+  Parameters: {"commit"=>"Create Post", "post"=>{"image_url"=>"", "description"=>""}, "authenticity_token"=>"LU+ne1IbYRP4oC2FInInY+qgo9HnT27ax2vpz3VjR64=", "utf8"=>"✓"}
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered collection (0.0ms)
+Rendered posts/_form.html.erb (15.6ms)
+Rendered posts/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 109ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:18:51 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at Tue Feb 08 20:19:45 -0500 2011
+  Processing by PostsController#create as HTML
+  Parameters: {"commit"=>"Create Post", "post"=>{"image_url"=>"http://media.ebaumsworld.com/picture/dadudemon/biiigpoops.jpg", "description"=>"poop poop poops"}, "authenticity_token"=>"LU+ne1IbYRP4oC2FInInY+qgo9HnT27ax2vpz3VjR64=", "utf8"=>"✓"}
+  [1m[35mPost Load (0.0ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mSQL (0.0ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.0ms)[0m  INSERT INTO "posts" ("description", "image_url", "updated_at", "created_at") VALUES ('poop poop poops', 'http://media.ebaumsworld.com/picture/dadudemon/biiigpoops.jpg', '2011-02-09 01:19:45.698105', '2011-02-09 01:19:45.698105')
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 1438ms
+
+
+Started GET "/posts" for 127.0.0.1 at Tue Feb 08 20:19:47 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/_post.html.erb (93.8ms)
+Rendered posts/_form.html.erb (15.6ms)
+Rendered posts/index.html.erb within layouts/application (125.0ms)
+Completed 200 OK in 219ms (Views: 156.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:19:47 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Feb 08 20:31:39 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.0ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/_post.html.erb (0.0ms)
+Rendered posts/_form.html.erb (15.6ms)
+Rendered posts/index.html.erb within layouts/application (62.5ms)
+Completed 200 OK in 422ms (Views: 203.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:31:40 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at Tue Feb 08 20:33:54 -0500 2011
+  Processing by PostsController#create as HTML
+  Parameters: {"commit"=>"Create Post", "post"=>{"image_url"=>"ok.jpg", "description"=>"ok"}, "authenticity_token"=>"R2Ks6KPjgk4QBV+Fs69JCT8/9/P3W7BoNA85MZbDZxc=", "utf8"=>"✓"}
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mAREL (0.0ms)[0m  INSERT INTO "posts" ("image_url", "description", "updated_at", "created_at") VALUES ('ok.jpg', 'ok', '2011-02-09 01:33:55.033370', '2011-02-09 01:33:55.033370')
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 1016ms
+
+
+Started GET "/posts" for 127.0.0.1 at Tue Feb 08 20:33:55 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/_post.html.erb (15.6ms)
+Rendered posts/_form.html.erb (0.0ms)
+Rendered posts/index.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 94ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:33:56 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:33:56 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:33:56 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at Tue Feb 08 20:36:42 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.0ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/_post.html.erb (15.6ms)
+Rendered posts/_form.html.erb (0.0ms)
+Rendered posts/index.html.erb within layouts/application (62.5ms)
+Completed 200 OK in 391ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:36:43 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:36:43 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:36:44 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:36:44 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:37:05 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at Tue Feb 08 20:40:05 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/_post.html.erb (0.0ms)
+Rendered posts/_form.html.erb (15.6ms)
+Rendered posts/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 141ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:40:05 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:40:05 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:40:05 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:40:06 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at Tue Feb 08 20:40:28 -0500 2011
+  Processing by PostsController#create as HTML
+  Parameters: {"commit"=>"Create Post", "post"=>{"image_url"=>"test.jpg", "description"=>"test"}, "authenticity_token"=>"R2Ks6KPjgk4QBV+Fs69JCT8/9/P3W7BoNA85MZbDZxc=", "utf8"=>"✓"}
+  [1m[35mPost Load (0.0ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO "posts" ("image_url", "created_at", "description", "updated_at") VALUES ('test.jpg', '2011-02-09 01:40:28.761021', 'test', '2011-02-09 01:40:28.761021')[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 281ms
+
+
+Started GET "/posts" for 127.0.0.1 at Tue Feb 08 20:40:29 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.0ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/_post.html.erb (0.0ms)
+Rendered posts/_form.html.erb (0.0ms)
+Rendered posts/index.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 94ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:40:29 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/test.jpg" for 127.0.0.1 at Tue Feb 08 20:40:29 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/test.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:40:29 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/test.jpg" for 127.0.0.1 at Tue Feb 08 20:40:29 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/test.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:40:29 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:41:02 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at Tue Feb 08 20:44:34 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/_post.html.erb (0.0ms)
+Rendered posts/_form.html.erb (0.0ms)
+Rendered posts/index.html.erb within layouts/application (78.1ms)
+Completed 200 OK in 484ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:44:35 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/test.jpg" for 127.0.0.1 at Tue Feb 08 20:44:35 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/test.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:44:36 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:44:36 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/test.jpg" for 127.0.0.1 at Tue Feb 08 20:44:36 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/test.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:44:36 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at Tue Feb 08 20:46:14 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.0ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/_post.html.erb (0.0ms)
+Rendered posts/_form.html.erb (0.0ms)
+Rendered posts/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 78ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:46:14 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:46:14 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/test.jpg" for 127.0.0.1 at Tue Feb 08 20:46:14 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/test.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:46:14 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:46:14 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/test.jpg" for 127.0.0.1 at Tue Feb 08 20:46:14 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/test.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at Tue Feb 08 20:49:25 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered posts/_post.html.erb (15.6ms)
+Rendered posts/_form.html.erb (0.0ms)
+Rendered posts/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 406ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:49:26 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:49:26 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/test.jpg" for 127.0.0.1 at Tue Feb 08 20:49:26 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/test.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:49:26 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:49:27 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/test.jpg" for 127.0.0.1 at Tue Feb 08 20:49:27 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/test.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at Tue Feb 08 20:49:33 -0500 2011
+  Processing by PostsController#create as HTML
+  Parameters: {"commit"=>"Create Post", "post"=>{"image_url"=>"test.jpg", "description"=>"testd"}, "authenticity_token"=>"R2Ks6KPjgk4QBV+Fs69JCT8/9/P3W7BoNA85MZbDZxc=", "utf8"=>"✓"}
+  [1m[35mPost Load (0.0ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO "posts" ("updated_at", "description", "created_at", "image_url") VALUES ('2011-02-09 01:49:33.600805', 'testd', '2011-02-09 01:49:33.600805', 'test.jpg')[0m
+Redirected to http://localhost:3000/posts
+Completed 302 Found in 344ms
+
+
+Started GET "/posts" for 127.0.0.1 at Tue Feb 08 20:49:33 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (15.6ms)[0m  SELECT "posts".* FROM "posts"
+Rendered posts/_post.html.erb (0.0ms)
+Rendered posts/_form.html.erb (0.0ms)
+Rendered posts/index.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 78ms (Views: 46.9ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:49:34 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:49:34 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/test.jpg" for 127.0.0.1 at Tue Feb 08 20:49:34 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/test.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:49:34 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:49:34 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/test.jpg" for 127.0.0.1 at Tue Feb 08 20:49:34 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/test.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at Tue Feb 08 20:55:58 -0500 2011
+  Processing by PostsController#index as HTML
+Completed   in 375ms
+
+NoMethodError (undefined method `assert_valid_keys' for :all:Symbol):
+  app/controllers/posts_controller.rb:7:in `index'
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at Tue Feb 08 20:56:24 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts" ORDER BY created_at[0m
+Rendered posts/_post.html.erb (15.6ms)
+Rendered posts/_form.html.erb (15.6ms)
+Rendered posts/index.html.erb within layouts/application (78.1ms)
+Completed 200 OK in 203ms (Views: 156.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:56:24 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:56:24 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/test.jpg" for 127.0.0.1 at Tue Feb 08 20:56:24 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/test.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:56:24 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:56:25 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/test.jpg" for 127.0.0.1 at Tue Feb 08 20:56:25 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/test.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/posts" for 127.0.0.1 at Tue Feb 08 20:56:42 -0500 2011
+  Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.0ms)[0m  SELECT "posts".* FROM "posts" ORDER BY created_at DESC
+Rendered posts/_post.html.erb (0.0ms)
+Rendered posts/_form.html.erb (0.0ms)
+Rendered posts/index.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 141ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:56:42 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/test.jpg" for 127.0.0.1 at Tue Feb 08 20:56:42 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/test.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:56:42 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Tue Feb 08 20:56:43 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/test.jpg" for 127.0.0.1 at Tue Feb 08 20:56:43 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/test.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/ok.jpg" for 127.0.0.1 at Tue Feb 08 20:56:43 -0500 2011
+
+ActionController::RoutingError (No route matches "/images/ok.jpg"):
+  
+
+Rendered c:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)

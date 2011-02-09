@@ -11,8 +11,8 @@
 
 h1 {
         font:  150% serif;
-        color: #496;
-        border-bottom: 3px dotted #77d;
+        color: #2A4480;
+        border-bottom: 3px dotted #06266F;
 }
 
 /* START:mainlayout */
@@ -23,9 +23,9 @@ h1 {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 2px solid;
-  font: small-caps 40px/40px "Trebuchet", sans-serif;
+  font: small-caps 100px/100px "Trebuchet", sans-serif, bold;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 #banner img {

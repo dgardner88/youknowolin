@@ -4,7 +4,7 @@ class PostsController < ApplicationController
   skip_before_filter :verify_authenticity_token
 
   def index
-    @posts = Post.all
+    @posts = Post.all(:order => "created_at DESC")
     @post = Post.new
 
 
@@ -49,7 +49,7 @@ class PostsController < ApplicationController
 
     respond_to do |format|
       if @post.save
-        format.html { redirect_to(posts_url, :notice => 'Post was successfully created.') }
+        format.html { redirect_to(posts_url, :notice => 'Now we know how you know.') }
         format.xml  { render :xml => @post, :status => :created, :location => @post }
       else
         format.html { render :action => "index" }
