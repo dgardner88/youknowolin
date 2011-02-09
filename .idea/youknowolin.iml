@@ -84,13 +84,10 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] webrat (v0.7.1, C:/Ruby187/lib/ruby/gems/1.8/gems/webrat-0.7.1)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rspec (v2.4.0, C:/Ruby187/lib/ruby/gems/1.8/gems/rspec-2.4.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rspec (v2.4.0, C:/Ruby187/lib/ruby/gems/1.8/gems/rspec-2.4.0)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] rspec-mocks (v2.4.0, C:/Ruby187/lib/ruby/gems/1.8/gems/rspec-mocks-2.4.0)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] rspec-expectations (v2.4.0, C:/Ruby187/lib/ruby/gems/1.8/gems/rspec-expectations-2.4.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] nokogiri (v1.4.4.1, C:/Ruby187/lib/ruby/gems/1.8/gems/nokogiri-1.4.4.1-x86-mingw32)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] rspec-core (v2.4.0, C:/Ruby187/lib/ruby/gems/1.8/gems/rspec-core-2.4.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rake (v0.8.7, C:/Ruby187/lib/ruby/gems/1.8/gems/rake-0.8.7)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] erubis (v2.6.6, C:/Ruby187/lib/ruby/gems/1.8/gems/erubis-2.6.6)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] activemodel (v3.0.3, C:/Ruby187/lib/ruby/gems/1.8/gems/activemodel-3.0.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] erubis (v2.6.6, C:/Ruby187/lib/ruby/gems/1.8/gems/erubis-2.6.6)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] thor (v0.14.6, C:/Ruby187/lib/ruby/gems/1.8/gems/thor-0.14.6)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] polyglot (v0.3.1, C:/Ruby187/lib/ruby/gems/1.8/gems/polyglot-0.3.1)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] tzinfo (v0.3.24, C:/Ruby187/lib/ruby/gems/1.8/gems/tzinfo-0.3.24)" level="application" />
@@ -99,7 +96,6 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] mime-types (v1.16, C:/Ruby187/lib/ruby/gems/1.8/gems/mime-types-1.16)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] treetop (v1.4.9, C:/Ruby187/lib/ruby/gems/1.8/gems/treetop-1.4.9)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] abstract (v1.0.0, C:/Ruby187/lib/ruby/gems/1.8/gems/abstract-1.0.0)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] diff-lcs (v1.1.2, C:/Ruby187/lib/ruby/gems/1.8/gems/diff-lcs-1.1.2)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] i18n (v0.5.0, C:/Ruby187/lib/ruby/gems/1.8/gems/i18n-0.5.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] builder (v2.1.2, C:/Ruby187/lib/ruby/gems/1.8/gems/builder-2.1.2)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rack-mount (v0.6.13, C:/Ruby187/lib/ruby/gems/1.8/gems/rack-mount-0.6.13)" level="application" />

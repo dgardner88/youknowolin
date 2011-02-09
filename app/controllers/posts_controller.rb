@@ -7,6 +7,7 @@ class PostsController < ApplicationController
     @posts = Post.all
     @post = Post.new
 
+
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @posts }
