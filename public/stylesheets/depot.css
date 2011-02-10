@@ -2,7 +2,7 @@
 
 #notice {
         color: #100;
-        border: 2px solid red;
+        border: 2px solid blue;
         padding: 1em;
         margin-bottom: 2em;
         background-color: #f0f0f0;
@@ -35,6 +35,8 @@
   background: white;
   border: 5px solid #004894;
   float: left;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 #posts {
@@ -56,4 +58,8 @@
     margin: 20px 0px 0px 0px;
     width: 240px;
     float: right;
+}
+
+.post img {
+   -webkit-box-shadow: 3px 3px 5px #000;
 }
