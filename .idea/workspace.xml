@@ -4,11 +4,10 @@
     <list default="true" id="f287a9ca-be50-47ba-871f-1e06fe15891a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/_post.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/_post.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/scaffold.css" afterPath="$PROJECT_DIR$/public/stylesheets/scaffold.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/depot.css" afterPath="$PROJECT_DIR$/public/stylesheets/depot.css" />
     </list>
     <ignored path="youknowolin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,10 +40,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="226" selection-end="226" vertical-scroll-proportion="0.3295964">
+            <state line="10" column="7" selection-start="338" selection-end="338" vertical-scroll-proportion="-7.7777777">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_post.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/_post.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="6" selection-start="328" selection-end="328" vertical-scroll-proportion="-3.8888888">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="21" selection-start="358" selection-end="358" vertical-scroll-proportion="-10.111111">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/_new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -53,16 +97,25 @@
       <file leaf-file-name="posts_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+            <state line="84" column="30" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="depot.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="depot.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/depot.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0">
+            <state line="46" column="16" selection-start="703" selection-end="703" vertical-scroll-proportion="0.6769231">
               <folding />
             </state>
           </provider>
@@ -102,13 +155,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
-        <option value="$PROJECT_DIR$/public/stylesheets/depot.css" />
-        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/posts/_post.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
         <option value="$PROJECT_DIR$/public/stylesheets/scaffold.css" />
+        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/posts/_post.html.erb" />
+        <option value="$PROJECT_DIR$/public/stylesheets/depot.css" />
       </list>
     </option>
   </component>
@@ -504,9 +557,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -590,23 +643,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="348" selection-end="348" vertical-scroll-proportion="0.3948718">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="7" selection-start="338" selection-end="338" vertical-scroll-proportion="-7.7777777">
           <folding />
         </state>
       </provider>
@@ -618,23 +664,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/depot.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+        <state line="84" column="30" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="358" selection-end="358" vertical-scroll-proportion="0.45273632">
+        <state line="13" column="21" selection-start="358" selection-end="358" vertical-scroll-proportion="-10.111111">
           <folding />
         </state>
       </provider>
@@ -648,7 +687,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/_post.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="90" selection-start="185" selection-end="185" vertical-scroll-proportion="0.06965174">
+        <state line="5" column="6" selection-start="328" selection-end="328" vertical-scroll-proportion="-3.8888888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -660,9 +713,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/depot.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="226" selection-end="226" vertical-scroll-proportion="0.3295964">
+        <state line="46" column="16" selection-start="703" selection-end="703" vertical-scroll-proportion="0.6769231">
           <folding />
         </state>
       </provider>

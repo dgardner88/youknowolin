@@ -2,4 +2,7 @@
     <strong>You know you go to olin when <%= post.description %></strong>
     <div class="image"><%= image_tag(post.image_url, :class => 'post_image', :width => 480) %></div>
     <div class="timestamp"><%= post.created_at.localtime.strftime('%A %b. %#d @%#I:%M %p') %></div>
+    <div class="buttons">
+      <%= link_to 'Remove', post, :confirm => 'Are you sure?', :method => :delete %>
+    </div>
   </div>
