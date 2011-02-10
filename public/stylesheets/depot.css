@@ -9,51 +9,51 @@
         font: bold smaller serif;
 }
 
-h1 {
-        font:  150% serif;
-        color: #2A4480;
-        border-bottom: 3px dotted #06266F;
-}
 
 /* START:mainlayout */
 /* Styles for main page */
 
 #content {
-    background-color: blue;
     width: 960px;
     margin: 0 auto 0 auto;
 }
 
 #banner {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid;
-  font: small-caps 100px/100px "Trebuchet", sans-serif, bold;
-  color: white;
-  text-align: left;
-}
+  width: 100%;
+  height: 140px;
+  }
 
 #banner img {
-  float: left;
+
 }
 
 #main {
-  padding-top: 4ex;
-  padding-left: 2em;
+  width: 950px;
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 20px;
   background: white;
+  border: 5px solid #004894;
+  float: left;
 }
 
 #posts {
     width: 640px;
     padding: 0;
     margin: 0;
-    background: red;
-    
+    background: white;
+    float: left;
+    padding: 0px 10px 0px;
 }
 
 .post {
     padding-top: 20px;
     overflow: hidden;
     word-wrap: break-word;
+}
 
+#submit_bar {
+    margin: 20px 0px 0px 0px;
+    width: 240px;
+    float: right;
 }

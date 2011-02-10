@@ -12,15 +12,12 @@
 <body>
     <div id="content">
       <div id="banner">
-        <%= image_tag("logo.png") %>
-        <%= @page_title || "uKnowOlin" %><!-- <label id="code.depot.e.title"/> -->
+        <%= image_tag("uknow_logo_web_2.png") %>
       </div>
-
-      <% if notice %>
-        <p id="notice"><%= notice %></p>
-      <% end %>
-
       <div id="main">
+        <% if notice %>
+          <p id="notice"><%= notice %></p>
+        <% end %>
           <%= yield %><!-- <label id="code.depot.e.include"/> -->
       </div>
     </div>
