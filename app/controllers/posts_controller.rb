@@ -45,7 +45,7 @@ class PostsController < ApplicationController
   # POST /posts.xml
   def create
     @post = Post.new(params[:post])
-    @posts = Post.all
+    @posts = Post.all(:order => "created_at DESC")
 
     respond_to do |format|
       if @post.save
