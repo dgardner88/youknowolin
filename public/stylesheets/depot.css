@@ -18,8 +18,13 @@ h1 {
 /* START:mainlayout */
 /* Styles for main page */
 
+#content {
+    background-color: blue;
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
+
 #banner {
-  background: #1240AB;
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 2px solid;
@@ -32,27 +37,23 @@ h1 {
   float: left;
 }
 
-#columns {
-  background: #141;
-}
-
 #main {
-  margin-left: 17em;
   padding-top: 4ex;
   padding-left: 2em;
   background: white;
 }
 
-#side {
-  float: left;
-  padding-top: 1em;
-  padding-left: 1em;
-  padding-bottom: 1em;
-  width: 16em;
-  background: #241;
+#posts {
+    width: 640px;
+    padding: 0;
+    margin: 0;
+    background: red;
+    
 }
 
-#side a {
-  color: #b3b;
-  font-size: small;
+.post {
+    padding-top: 20px;
+    overflow: hidden;
+    word-wrap: break-word;
+
 }

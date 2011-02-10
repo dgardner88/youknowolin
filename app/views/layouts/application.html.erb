@@ -9,19 +9,20 @@
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %><!-- <label id="code.csrf"/> -->
 </head>
-<body id="store">
-  <div id="banner">
-    <%= image_tag("logo.png") %>
-    <%= @page_title || "uKnowOlin" %><!-- <label id="code.depot.e.title"/> -->
-  </div>
+<body>
+    <div id="content">
+      <div id="banner">
+        <%= image_tag("logo.png") %>
+        <%= @page_title || "uKnowOlin" %><!-- <label id="code.depot.e.title"/> -->
+      </div>
 
-  <% if notice %>
-    <p id="notice"><%= notice %></p>
-  <% end %>
-  
-  <div id="main">
-      <%= yield %><!-- <label id="code.depot.e.include"/> -->
-  </div>
+      <% if notice %>
+        <p id="notice"><%= notice %></p>
+      <% end %>
 
+      <div id="main">
+          <%= yield %><!-- <label id="code.depot.e.include"/> -->
+      </div>
+    </div>
 </body>
 </html>

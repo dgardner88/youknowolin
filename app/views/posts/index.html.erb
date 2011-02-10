@@ -6,13 +6,13 @@
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %><!-- <label id="code.csrf"/> -->
 
-<div class="posts">
+<div id="posts">
   <% if @posts %>
   <%=render(@posts)%>
   <% end %>
 </div>
 
-<div class="submit_bar">
+<div id="submit_bar">
     <%= render 'form' %>
 </div>
 
